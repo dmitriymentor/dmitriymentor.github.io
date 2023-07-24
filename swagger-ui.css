@@ -7248,7 +7248,7 @@ body {
 .swagger-ui .opblock {
     border: 1px solid #000;
     border-radius: 7px;
-    box-shadow: 0 0 24px rgb(131 132 246 / 10%);
+    box-shadow: 0 0 160px rgb(131 132 246 / 8%);
     margin: 0 0 15px;
 }
 .swagger-ui .opblock .tab-header {
@@ -7373,13 +7373,14 @@ body {
 }
 .swagger-ui .opblock.opblock-post {
     background: rgba(73, 204, 144, 0.1);
-    border-color: #49cc90;
+    border-color: rgb(73 204 144 / 40%);
+    transition: 0.1s;
 }
 .swagger-ui .opblock.opblock-post:hover {
     background: rgba(73, 204, 144, 0.2);
 }
 .swagger-ui .opblock.opblock-post:active {
-    background: rgba(73, 204, 144, 0.15);
+    background: rgba(73, 204, 144, 0.1);
 }
 .swagger-ui .opblock.opblock-post .opblock-summary-method {
     background: #49cc90;
@@ -7418,14 +7419,14 @@ body {
 }
 .swagger-ui .opblock.opblock-get {
     background: rgb(131 132 246 / 10%);
-    border-color: #8384f6;
+    border-color: rgb(131 132 246 / 30%);
     transition: 0.1s;
 }
 .swagger-ui .opblock.opblock-get:hover {
     background: rgb(131 132 246 / 20%);
 }
 .swagger-ui .opblock.opblock-get:active {
-    background: rgb(131 132 246 / 15%);
+    background: rgb(131 132 246 / 10%);
 }
 
 .swagger-ui .opblock.opblock-get .opblock-summary-method {
@@ -8444,8 +8445,8 @@ body {
 }
 .swagger-ui section.models .model-container {
     background: rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
-    margin: 0 0 15px;
+    border-radius: 7px;
+    margin: 0 0 12px;
     position: relative;
     transition: all 0.1s;
 }
@@ -8453,7 +8454,7 @@ body {
     background: rgba(0, 0, 0, 0.09);
 }
 .swagger-ui section.models .model-container:first-of-type {
-    margin: 20px 0;
+    margin: 20px 0 12px;
 }
 .swagger-ui section.models .model-container:last-of-type {
     /* margin: 0 20px; */
