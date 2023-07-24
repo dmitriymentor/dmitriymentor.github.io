@@ -7375,6 +7375,12 @@ body {
     background: rgba(73, 204, 144, 0.1);
     border-color: #49cc90;
 }
+.swagger-ui .opblock.opblock-post:hover {
+    background: rgba(73, 204, 144, 0.2);
+}
+.swagger-ui .opblock.opblock-post:active {
+    background: rgba(73, 204, 144, 0.15);
+}
 .swagger-ui .opblock.opblock-post .opblock-summary-method {
     background: #49cc90;
 }
@@ -7418,6 +7424,10 @@ body {
 .swagger-ui .opblock.opblock-get:hover {
     background: rgb(131 132 246 / 20%);
 }
+.swagger-ui .opblock.opblock-get:active {
+    background: rgb(131 132 246 / 15%);
+}
+
 .swagger-ui .opblock.opblock-get .opblock-summary-method {
     background: #8384f6;
 }
