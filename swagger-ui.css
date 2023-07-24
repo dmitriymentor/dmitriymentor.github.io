@@ -7117,12 +7117,13 @@ html {
 }
 .swagger-ui .wrapper {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0 auto 24px 0;
     max-width: 1460px;
     padding: 0 20px;
     width: 100%;
     background-color: #fff;
     border-radius: 14px;
+    border: 1px solid rgb(0 0 0 / 10%);
 }
 .swagger-ui .opblock-tag-section {
     display: flex;
@@ -7935,7 +7936,7 @@ html {
 .swagger-ui .model-box-control:focus,
 .swagger-ui .models-control:focus,
 .swagger-ui .opblock-summary-control:focus {
-    outline: auto;
+    /* outline: auto; */
 }
 .swagger-ui .expand-methods,
 .swagger-ui .expand-operation {
@@ -8706,7 +8707,7 @@ html {
     padding: 4px 30px;
 }
 .swagger-ui .info {
-    margin: 50px 0 24px;
+    /* margin: 50px 0 24px; */
     padding: 18px 12px;
 }
 .swagger-ui .info.failed-config {
