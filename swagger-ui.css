@@ -7297,6 +7297,7 @@ html {
     font-weight: 700;
     min-width: 80px;
     text-align: center;
+    padding: 8px;
     /* text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); */
 }
 .swagger-ui .opblock .opblock-summary-operation-id,
@@ -7400,10 +7401,10 @@ html {
     background: #8384f6;
 }
 .swagger-ui .opblock.opblock-get .opblock-summary {
-    border-color: #61affe;
+    border-color: #8384f6;
 }
 .swagger-ui .opblock.opblock-get .tab-header .tab-item.active h4 span:after {
-    background: #61affe;
+    background: #8384f6;
 }
 .swagger-ui .opblock.opblock-patch {
     background: rgba(80, 227, 194, 0.1);
@@ -8139,7 +8140,7 @@ html {
     width: 100%;
 }
 .swagger-ui textarea:focus {
-    border: 2px solid #61affe;
+    border: 2px solid #8384f6;
 }
 .swagger-ui textarea.curl {
     background: #41444e;
