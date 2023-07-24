@@ -7229,7 +7229,7 @@ html {
 .swagger-ui .opblock {
     border: 1px solid #000;
     border-radius: 4px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 24px rgb(131 132 246 / 10%)
     margin: 0 0 15px;
 }
 .swagger-ui .opblock .tab-header {
@@ -7393,10 +7393,10 @@ html {
 }
 .swagger-ui .opblock.opblock-get {
     background: rgba(97, 175, 254, 0.1);
-    border-color: #61affe;
+    border-color: #8384f6;
 }
 .swagger-ui .opblock.opblock-get .opblock-summary-method {
-    background: #61affe;
+    background: #8384f6;
 }
 .swagger-ui .opblock.opblock-get .opblock-summary {
     border-color: #61affe;
