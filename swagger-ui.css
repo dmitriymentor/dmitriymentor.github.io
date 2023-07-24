@@ -11,6 +11,10 @@ body {
     padding: 0 !important;
     background-color: #f6f6f6 !important;
 }
+.url,
+.info__license {
+    display: none;
+}
 .swagger-ui {
     color: #3b4151;
     /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -8792,6 +8796,7 @@ body {
     margin: 0 0 5px;
 }
 .swagger-ui .info .base-url {
+    display: none;
     color: #3b4151;
     font-family: monospace;
     font-size: 12px;
@@ -8806,11 +8811,11 @@ body {
     margin: 0;
 }
 .swagger-ui .info .title small {
-    background: #7d8492;
+    background: linear-gradient(131deg, #8384f6 0%, #a783ff 100%);
     border-radius: 57px;
     display: inline-block;
     font-size: 10px;
-    margin: 0 0 0 5px;
+    margin: 0 0 0 12px;
     padding: 2px 4px;
     position: relative;
     top: -5px;
