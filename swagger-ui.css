@@ -7392,7 +7392,7 @@ html {
     background: #f93e3e;
 }
 .swagger-ui .opblock.opblock-get {
-    background: rgba(97, 175, 254, 0.1);
+    background: rgb(131 132 246 / 10%);
     border-color: #8384f6;
 }
 .swagger-ui .opblock.opblock-get .opblock-summary-method {
