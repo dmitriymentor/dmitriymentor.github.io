@@ -7148,7 +7148,7 @@ html {
     cursor: pointer;
     display: flex;
     padding: 10px 20px;
-    transition: all 0.2s;
+    transition: all 0.1s;
 }
 .swagger-ui .opblock-tag:hover {
     background: rgba(0, 0, 0, 0.06);
@@ -8370,7 +8370,7 @@ html {
     vertical-align: top;
 }
 .swagger-ui section.models {
-    border: 1px solid rgba(59, 65, 81, 0.3);
+    /* border: 1px solid rgba(59, 65, 81, 0.3); */
     border-radius: 4px;
     margin: 30px 0;
 }
@@ -8417,15 +8417,15 @@ html {
 .swagger-ui section.models .model-container {
     background: rgba(0, 0, 0, 0.05);
     border-radius: 4px;
-    margin: 0 20px 15px;
+    margin: 0 0 15px;
     position: relative;
-    transition: all 0.5s;
+    transition: all 0.1s;
 }
 .swagger-ui section.models .model-container:hover {
-    background: rgba(0, 0, 0, 0.07);
+    background: rgba(0, 0, 0, 0.09);
 }
 .swagger-ui section.models .model-container:first-of-type {
-    margin: 20px;
+    margin: 20px 0;
 }
 .swagger-ui section.models .model-container:last-of-type {
     margin: 0 20px;
