@@ -7229,7 +7229,7 @@ html {
 .swagger-ui .opblock {
     border: 1px solid #000;
     border-radius: 4px;
-    box-shadow: 0 0 24px rgb(131 132 246 / 10%)
+    box-shadow: 0 0 24px rgb(131 132 246 / 10%);
     margin: 0 0 15px;
 }
 .swagger-ui .opblock .tab-header {
