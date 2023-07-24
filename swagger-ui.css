@@ -7134,6 +7134,10 @@ body {
     /* border-radius: 14px; */
     /* border: 1px solid rgb(0 0 0 / 10%); */
 }
+.wrapper * {
+    max-width: 1460px;
+    margin: 0 auto;
+}
 .swagger-ui .opblock-tag-section {
     display: flex;
     flex-direction: column;
@@ -8438,7 +8442,7 @@ body {
     margin: 20px 0;
 }
 .swagger-ui section.models .model-container:last-of-type {
-    margin: 0 20px;
+    /* margin: 0 20px; */
 }
 .swagger-ui section.models .model-container .models-jump-to-path {
     opacity: 0.65;
