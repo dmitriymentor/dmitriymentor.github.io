@@ -1,8 +1,13 @@
 html {
     background-color: #eee;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 .information-container {
-    margin-top: 50px;
+    margin-top: 50px !important;
+    background-color: #eee !important;
 }
 .swagger-ui {
     color: #3b4151;
@@ -7120,14 +7125,14 @@ html {
 }
 .swagger-ui .wrapper {
     box-sizing: border-box;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-bottom: 24px;
-    max-width: 1460px;
+    /* max-width: 1460px; */
     padding: 12px 20px;
     width: 100%;
     background-color: #fff;
-    border-radius: 14px;
-    border: 1px solid rgb(0 0 0 / 10%);
+    /* border-radius: 14px; */
+    /* border: 1px solid rgb(0 0 0 / 10%); */
 }
 .swagger-ui .opblock-tag-section {
     display: flex;
@@ -7400,6 +7405,7 @@ html {
 .swagger-ui .opblock.opblock-get {
     background: rgb(131 132 246 / 10%);
     border-color: #8384f6;
+    transition: 0.1s;
 }
 .swagger-ui .opblock.opblock-get:hover {
     background: rgb(131 132 246 / 20%);
@@ -7416,6 +7422,10 @@ html {
 .swagger-ui .opblock.opblock-patch {
     background: rgba(80, 227, 194, 0.1);
     border-color: #50e3c2;
+    transition: 0.1s;
+}
+.swagger-ui .opblock.opblock-patch:hover {
+    background: rgba(80, 227, 194, 0.2);
 }
 .swagger-ui .opblock.opblock-patch .opblock-summary-method {
     background: #50e3c2;
