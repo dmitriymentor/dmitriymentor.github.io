@@ -7283,7 +7283,7 @@
 }
 .swagger-ui .opblock .opblock-summary-method {
     background: #000;
-    border-radius: 3px;
+    border-radius: 500px;
     color: #fff;
     font-family: sans-serif;
     font-size: 14px;
@@ -7291,7 +7291,7 @@
     min-width: 80px;
     padding: 6px 0;
     text-align: center;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    /* text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); */
 }
 .swagger-ui .opblock .opblock-summary-operation-id,
 .swagger-ui .opblock .opblock-summary-path,
