@@ -9,7 +9,7 @@ body {
     margin-top: 100px !important;
     margin-bottom: 34px !important;
     padding: 0 !important;
-    background-color: #f6f6f6 !important;
+    background-color: #f6f6f600 !important;
 }
 .url,
 .info__license {
@@ -7145,7 +7145,7 @@ body {
     margin: 0 auto;
 }
 .wrapper:nth-of-type(4) {
-    background-color: #eee;
+    background-color: #eeeeee00;
 }
 .swagger-ui .opblock-tag-section {
     display: flex;
