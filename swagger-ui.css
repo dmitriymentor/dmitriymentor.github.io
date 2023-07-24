@@ -7134,7 +7134,7 @@ body {
     /* margin: 0 auto; */
     /* margin-bottom: 24px; */
     /* max-width: 1460px; */
-    padding: 12px 20px;
+    padding: 24px 0;
     width: 100%;
     background-color: #fff;
     /* border-radius: 14px; */
@@ -8751,7 +8751,7 @@ body {
 }
 .swagger-ui .info {
     /* margin: 50px 0 24px; */
-    padding: 8px 12px;
+    padding: 0 12px 2px;
 }
 .swagger-ui .info.failed-config {
     margin-left: auto;
