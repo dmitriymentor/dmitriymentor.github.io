@@ -1,6 +1,9 @@
 html {
     background-color: #eee;
 }
+.information-container {
+    margin-top: 50px;
+}
 .swagger-ui {
     color: #3b4151;
     /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -7120,7 +7123,7 @@ html {
     margin: 0 auto;
     margin-bottom: 24px;
     max-width: 1460px;
-    padding: 0 20px;
+    padding: 12px 20px;
     width: 100%;
     background-color: #fff;
     border-radius: 14px;
@@ -7140,14 +7143,15 @@ html {
 }
 .swagger-ui .opblock-tag {
     align-items: center;
-    border-bottom: 1px solid rgba(59, 65, 81, 0.3);
+    /* border-bottom: 1px solid rgb(0 0 0 / 10%); */
+    border-radius: 7px;
     cursor: pointer;
     display: flex;
     padding: 10px 20px;
     transition: all 0.2s;
 }
 .swagger-ui .opblock-tag:hover {
-    background: rgba(0, 0, 0, 0.02);
+    background: rgba(0, 0, 0, 0.06);
 }
 .swagger-ui .opblock-tag {
     color: #3b4151;
@@ -7396,6 +7400,9 @@ html {
 .swagger-ui .opblock.opblock-get {
     background: rgb(131 132 246 / 10%);
     border-color: #8384f6;
+}
+.swagger-ui .opblock.opblock-get:hover {
+    background: rgb(131 132 246 / 20%);
 }
 .swagger-ui .opblock.opblock-get .opblock-summary-method {
     background: #8384f6;
@@ -8709,7 +8716,7 @@ html {
 }
 .swagger-ui .info {
     /* margin: 50px 0 24px; */
-    padding: 18px 12px;
+    padding: 8px 12px;
 }
 .swagger-ui .info.failed-config {
     margin-left: auto;
