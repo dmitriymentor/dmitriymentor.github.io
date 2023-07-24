@@ -8,7 +8,7 @@ body {
 .information-container {
     margin-top: 80px !important;
     margin-bottom: 24px;
-    background-color: none !important;
+    background-color: #eee !important;
 }
 .swagger-ui {
     color: #3b4151;
@@ -7139,8 +7139,8 @@ body {
     max-width: 1460px;
     margin: 0 auto;
 }
-.wrapper:nth-of-type(3) {
-    background-color: none;
+.wrapper:nth-of-type(4) {
+    background-color: #eee;
 }
 .swagger-ui .opblock-tag-section {
     display: flex;
