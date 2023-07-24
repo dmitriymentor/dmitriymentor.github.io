@@ -7117,7 +7117,8 @@ html {
 }
 .swagger-ui .wrapper {
     box-sizing: border-box;
-    margin: 0 auto 24px 0;
+    margin: 0 auto;
+    margin-bottom: 24px;
     max-width: 1460px;
     padding: 0 20px;
     width: 100%;
@@ -7295,7 +7296,6 @@ html {
     font-size: 14px;
     font-weight: 700;
     min-width: 80px;
-    padding: 10px 14px;
     text-align: center;
     /* text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); */
 }
@@ -7339,7 +7339,7 @@ html {
     align-items: center;
     cursor: pointer;
     display: flex;
-    padding: 5px;
+    padding: 10px 14px;
 }
 .swagger-ui .opblock .opblock-summary .view-line-link {
     cursor: pointer;
